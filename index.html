@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Monavi — React Native Packages</title>
+    <meta
+      name="description"
+      content="Monavi builds focused React Native packages for mobile apps: LINE authentication, agent workflows, and lightweight native UI."
+    />
+    <meta name="theme-color" content="#f7f3ec" />
+    <meta property="og:title" content="Monavi — React Native Packages" />
+    <meta
+      property="og:description"
+      content="Focused React Native packages by Monavi. Published on npm, developed on GitHub."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://monavidev.github.io/" />
+    <link rel="icon" href="assets/monavi-mark.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;450;500;600;700;800&family=Geist+Mono:wght@450;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-noise" aria-hidden="true"></div>
+
+    <header class="site-header" data-elevate>
+      <a class="brand" href="#top" aria-label="Monavi home">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span class="brand-copy">
+          <span class="brand-name">Monavi</span>
+          <span class="brand-subtitle">React Native packages</span>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#packages">Packages</a>
+        <a href="#principles">Principles</a>
+        <a href="https://github.com/monavidev">GitHub</a>
+        <a href="https://www.npmjs.com/~monavi">npm</a>
+      </nav>
+
+      <a class="header-cta" href="mailto:monavidev@hotmail.com">Contact</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span>
+            Published packages for React Native developers
+          </p>
+          <h1>Small native packages for serious mobile apps.</h1>
+          <p class="hero-lede">
+            Monavi builds focused React Native infrastructure: authentication,
+            agent workflows, and lightweight native UI utilities. Less framework
+            noise. Clear APIs. Real mobile constraints.
+          </p>
+
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="https://www.npmjs.com/~monavi">
+              View npm profile
+              <span aria-hidden="true">→</span>
+            </a>
+            <a class="button button-secondary" href="https://github.com/monavidev">
+              GitHub repos
+            </a>
+          </div>
+
+          <dl class="hero-metrics" aria-label="Project metrics">
+            <div>
+              <dt>3</dt>
+              <dd>public packages</dd>
+            </div>
+            <div>
+              <dt>MIT</dt>
+              <dd>open license</dd>
+            </div>
+            <div>
+              <dt>RN</dt>
+              <dd>mobile first</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="hero-panel" aria-label="Monavi package preview">
+          <div class="panel-toolbar">
+            <span class="traffic-lights" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </span>
+            <span class="toolbar-title">monavi/packages</span>
+            <span class="toolbar-pill">public</span>
+          </div>
+
+          <div class="terminal-card">
+            <p class="terminal-label">Install</p>
+            <div class="command-row">
+              <code>npm i react-native-line-auth</code>
+              <button type="button" data-copy="npm i react-native-line-auth">Copy</button>
+            </div>
+            <div class="command-row muted-command">
+              <code>npm i @monavi/react-native-agent-kit</code>
+              <button type="button" data-copy="npm i @monavi/react-native-agent-kit">Copy</button>
+            </div>
+            <div class="command-row muted-command">
+              <code>npm i react-native-bottom-sheet-modal-lite</code>
+              <button type="button" data-copy="npm i react-native-bottom-sheet-modal-lite">Copy</button>
+            </div>
+          </div>
+
+          <div class="release-list">
+            <a class="release-row" href="https://github.com/monavidev/react-native-line-auth">
+              <span class="release-index">01</span>
+              <span>
+                <strong>LINE Auth</strong>
+                <small>official native SDK bridge</small>
+              </span>
+              <span class="row-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="release-row" href="https://github.com/monavidev/react-native-agent-kit">
+              <span class="release-index">02</span>
+              <span>
+                <strong>Agent Kit</strong>
+                <small>Codex / Claude workflow kit</small>
+              </span>
+              <span class="row-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="release-row" href="https://github.com/monavidev/react-native-bottom-sheet-modal-lite">
+              <span class="release-index">03</span>
+              <span>
+                <strong>Bottom Sheet Lite</strong>
+                <small>spring modal UI primitive</small>
+              </span>
+              <span class="row-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section-shell section-intro" id="packages">
+        <div>
+          <p class="section-kicker">Packages</p>
+          <h2>Focused tools, not a bloated framework.</h2>
+        </div>
+        <p>
+          Each package is designed to solve one React Native problem cleanly,
+          with typed APIs, readable source, and practical installation notes.
+        </p>
+      </section>
+
+      <section class="package-grid section-shell" aria-label="Monavi packages">
+        <article class="package-card package-featured">
+          <div class="package-topline">
+            <span class="package-badge">Authentication</span>
+            <span class="package-version">v0.1.0</span>
+          </div>
+          <h3>react-native-line-auth</h3>
+          <p>
+            Standalone LINE Login bridge for React Native using official native
+            LINE SDKs directly on iOS and Android.
+          </p>
+          <div class="package-meta">
+            <span>iOS</span>
+            <span>Android</span>
+            <span>TypeScript</span>
+          </div>
+          <div class="package-actions">
+            <a href="https://github.com/monavidev/react-native-line-auth">GitHub</a>
+            <a href="https://www.npmjs.com/package/react-native-line-auth">npm</a>
+          </div>
+        </article>
+
+        <article class="package-card">
+          <div class="package-topline">
+            <span class="package-badge">Workflow</span>
+            <span class="package-version">v0.3.3</span>
+          </div>
+          <h3>@monavi/react-native-agent-kit</h3>
+          <p>
+            Portable Codex and Claude agent kit with React Native scaffolds,
+            project contracts, templates, and safe adoption workflows.
+          </p>
+          <div class="package-meta">
+            <span>Codex</span>
+            <span>Claude</span>
+            <span>CLI</span>
+          </div>
+          <div class="package-actions">
+            <a href="https://github.com/monavidev/react-native-agent-kit">GitHub</a>
+            <a href="https://www.npmjs.com/package/@monavi/react-native-agent-kit">npm</a>
+          </div>
+        </article>
+
+        <article class="package-card">
+          <div class="package-topline">
+            <span class="package-badge">Interface</span>
+            <span class="package-version">v1.0.2</span>
+          </div>
+          <h3>react-native-bottom-sheet-modal-lite</h3>
+          <p>
+            Lightweight spring-animated bottom sheet modal for React Native,
+            built around Reanimated and Gesture Handler.
+          </p>
+          <div class="package-meta">
+            <span>Modal</span>
+            <span>Gesture</span>
+            <span>Reanimated</span>
+          </div>
+          <div class="package-actions">
+            <a href="https://github.com/monavidev/react-native-bottom-sheet-modal-lite">GitHub</a>
+            <a href="https://www.npmjs.com/package/react-native-bottom-sheet-modal-lite">npm</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="principles section-shell" id="principles">
+        <div class="principles-copy">
+          <p class="section-kicker">Principles</p>
+          <h2>Built for developers who need control.</h2>
+          <p>
+            Monavi packages are intentionally small. The goal is to expose clean
+            native capability without forcing a large application structure on
+            your project.
+          </p>
+        </div>
+        <div class="principle-list">
+          <div>
+            <span>01</span>
+            <strong>Native-first</strong>
+            <p>Use platform SDKs directly where it matters.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <strong>Readable source</strong>
+            <p>Keep behavior easy to inspect and maintain.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <strong>Typed APIs</strong>
+            <p>Ship TypeScript surfaces for safer app integration.</p>
+          </div>
+          <div>
+            <span>04</span>
+            <strong>Low ceremony</strong>
+            <p>Prefer practical setup over complex abstractions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-card section-shell" id="contact">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Need a React Native package or integration?</h2>
+          <p>
+            Reach out for package support, native bridge work, npm publishing,
+            or React Native implementation projects.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:monavidev@hotmail.com">
+            monavidev@hotmail.com
+          </a>
+          <a class="button button-secondary" href="https://github.com/monavidev">
+            View GitHub
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <span>© <span id="year"></span> Monavi</span>
+      <span class="footer-links">
+        <a href="https://www.npmjs.com/~monavi">npm</a>
+        <a href="https://github.com/monavidev">GitHub</a>
+        <a href="mailto:monavidev@hotmail.com">Contact</a>
+      </span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
